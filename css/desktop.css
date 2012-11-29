@@ -1,0 +1,680 @@
+/* CSS Document */
+
+body {
+	background: #111;
+	color: #000305;
+	font-size: 14px; 
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	background-image: url('../images/iphone_imgs_3/iphone_bg_black.jpg');
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-position: center;
+}
+
+/* Preload images 
+#preload-03 { background: url('../images/something.png') no-repeat -9999px -9999px; }
+
+#preload-01 { background: url('../images/ipad_imgs_4/bg_ad_mitre10.png') no-repeat -9999px -9999px; }
+#preload-02 { background: url('../images/ipad_imgs_4/bg_ad_mcdonalds.png') no-repeat -9999px -9999px; }
+*/
+/* Anchors */
+a {outline: 0;}
+a img {border: 0px; text-decoration: none;}
+a:link, a:visited {
+	color: #555555;
+	padding: 0 0px;
+	text-decoration: underline;
+}
+a:hover, a:active {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Paragraphs */
+p {
+	font-size: 12px;
+	line-height: 19px;
+	margin-bottom: 8px;
+}
+
+strong, b {font-weight: bold;}
+em, i {font-style: italic;}
+
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/* MAIN WRAPPERS */
+
+/* 100% across */
+
+#center_vertical {
+	position: absolute;
+	left: 50%;
+	margin-left: -50%;
+	top: 50%;
+	width: 100%;
+	margin-top: -240px;	
+	height: 480px;
+}
+
+/* center wrapper */
+#center_horizontal {
+	position: absolute;
+	left: 50%;
+	margin-left: -160px;
+	width: 320px;
+	height: 480px;
+	overflow: hidden;
+	background-color: #252525;
+}
+
+#header_iphone {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 320px;
+	height: 20px;
+	background-image: url('../images/iphone_imgs_3/header_iphone.png');
+	background-size: 320px 20px;	
+	z-index:23;
+	background-color: #ff0;
+}
+/**/
+#main_panel_container {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 320px;
+	height: 480px;
+	overflow: hidden;
+}
+
+
+/* panels */
+
+#panel_group_front {
+	z-index: 22;
+}
+
+
+
+
+/** ****************************************
+ * NAVIGATION
+ */
+
+#navi {
+	position: absolute;
+	left: 0px;
+	top: 424px;
+	height: 61px;
+	width: 320px;
+	background-image: url('../images/iphone_imgs_3/nav_sprite.png');
+	background-size: 1600px 56px;
+	z-index: 7;
+}
+
+#navi #navi_1, #navi #navi_2, #navi #navi_3, #navi #navi_4, #navi #navi_5 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 62px;
+	height: 51px;
+	z-index: 5;
+	cursor: pointer;
+}
+#navi #navi_1 {
+	left: 5px;
+	top: 0px;
+}
+#navi #navi_2 {
+	left: 67px;
+	top: 0px;
+}
+#navi #navi_3 {
+	left: 129px;
+	top: 0px;
+}
+#navi #navi_4 {
+	left: 191px;
+	top: 0px;
+}
+#navi #navi_5 {
+	left: 253px;
+	top: 0px;
+}
+
+
+/** ****************************************
+ * SIDEMENY
+ */
+
+
+
+/** ****************************************
+ * NAVIGATION
+ */
+
+#sidemenu {
+	position: absolute;
+	left: 0px;
+	top: 20px;
+	width: 320px;
+	height: 460px;
+	background-image: url('../images/iphone_imgs_3/sidemenu_sprite.png');
+	background-size: 320px 460px;
+	z-index: 1;
+}
+
+#sidemenu #sidemenu_1, #sidemenu #sidemenu_2, #sidemenu #sidemenu_3, #sidemenu #sidemenu_4, #sidemenu #sidemenu_5, #sidemenu #sidemenu_6 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 320px;
+	height: 44px;
+	z-index: 1;
+	cursor: pointer;
+}
+#sidemenu #sidemenu_1 {
+	left: 0px;
+	top: 30px;
+}
+#sidemenu #sidemenu_2 {
+	left: 0px;
+	top: 74px;
+}
+#sidemenu #sidemenu_3 {
+	left: 0px;
+	top: 118px;
+}
+#sidemenu #sidemenu_4 {
+	left: 0px;
+	top: 162px;
+}
+#sidemenu #sidemenu_5 {
+	left: 0px;
+	top: 206px;
+}
+#sidemenu #sidemenu_6 {
+	left: 0px;
+	top: 250px;
+}
+
+
+/* button to collapst menu, when it expands */
+#but_sidemenu_overlay {
+	position: absolute;
+	left: 0px;
+	top: 20px;
+	width: 320px;
+	height: 460px;
+	z-index: 22;
+	background-size: 320px 460px;
+	cursor: pointer;
+	display: none;
+}
+
+/** ****************************************
+ * LOADING
+ */
+
+#panel_loading {
+	position: absolute;
+	left: 0px;
+	top: 20px;
+	width: 320px;
+	height: 460px;
+	z-index: 20;
+	background-color: #252525;
+	background-image: url('../images/iphone_imgs_3/panel_loading_overlay.png');
+	background-size: 320px 460px;
+}
+
+
+/** ****************************************
+ * PANEL BASE
+ */
+
+#panel_1, #panel_2, #panel_3, #panel_4, #panel_5, 
+#panel_popover_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 320px;
+	height: 460px; 
+	z-index: 5;
+	background-image: url('../images/iphone_imgs_3/background.png');
+	background-size: 320px 461px;
+}
+
+
+/**
+ * PANEL WRAPPER BASE
+ */
+
+#panel_back_1_wrapper, #panel_back_2_wrapper, #panel_back_3_wrapper, #panel_back_4_wrapper, #panel_back_5_wrapper, 
+#panel_front_1_wrapper, #panel_front_2_wrapper, #panel_front_3_wrapper, #panel_front_4_wrapper, #panel_front_5_wrapper {
+	position: absolute;
+	left: 0px;
+	top: 43px;
+	width: 320px;
+	height: 370px; 
+	z-index: 5;
+	overflow: hidden;	
+}
+
+
+/**
+ * PANEL CONTENT BASE
+ */
+
+#panel_1_content, #panel_2_content, #panel_3_content, #panel_4_content, #panel_5_content {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 320px;
+	height: 367px; 
+	z-index: 5;
+}
+
+
+
+
+
+
+/* ******************************************************
+		START
+		OF
+
+		BACK 
+		PANEL 
+		01 
+
+		INSERTDESCRIPTORHERE
+*/
+
+
+#panel_group_back #panel_1 {
+	left: 0px;
+	top: 20px;
+	background-color: #252525;
+}
+
+#panel_group_back #panel_1_header {
+	top: 0px;
+	left: 0px;
+	width: 320px;
+	height: 44px; 
+	background-position: 0px 0px;
+	background-image: url('../images/iphone_imgs_3/panel_back_1_overlay.png');
+	background-size: 320px 1200px;
+	cursor: auto;
+}
+
+#panel_group_back #panel_back_1_wrapper {
+	position: absolute;
+	left: 0px;
+	top: 44px;
+	width: 320px;
+	height: 370px; 
+	z-index: 5;
+	overflow: hidden;		
+}
+
+#panel_group_back #panel_1_content {
+	top: 0px;
+	left: 0px;
+	width: 320px;
+	height: 1150px; 
+	background-position: 0px -44px;
+	z-index: 5;
+	background-image: url('../images/iphone_imgs_3/panel_back_1_overlay.png');
+	background-size: 320px 1200px;
+	cursor: auto;
+}
+
+/* BUTS */
+/* content button */
+#panel_group_back #panel_1 #but_1 {
+	position: absolute;
+	left: 0px;
+	top: 30px;
+	width: 320px;
+	height: 120px; 
+	z-index: 5;
+	cursor: pointer;
+}
+/* non-content button */
+#panel_group_back #panel_1 #non_content_but_1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 65px;
+	height: 44px; 
+	z-index: 5;
+	cursor: pointer;
+}
+/* non-content button */
+#panel_group_back #panel_1 #non_content_but_2 {
+	position: absolute;
+	left: 245px;
+	top: 0px;
+	width: 65px;
+	height: 44px; 
+	z-index: 5;
+	cursor: pointer;
+}
+/* back button
+#panel_group_back #panel_1 #but_back {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 65px;
+	height: 44px; 
+	z-index: 5;
+	cursor: pointer;
+}
+*/
+/* optional grad (for scrolling)
+#panel_group_back #panel_1 #panel_item_grad {
+	position: absolute;
+	top: 388px;
+	left: 0px;
+	width: 320px;
+	height: 10px; 
+	background-image: url('../images/iphone_imgs_3/grad.png');
+	cursor: pointer;
+	z-index: 12;
+}
+*/
+
+
+/* 
+		END
+		OF
+
+		BACK 
+		PANEL 
+		01 
+
+ ************* */
+
+
+
+
+
+
+/* ******************************************************
+		START
+		OF
+
+		FRONT 
+		PANEL 
+		01 
+
+		INSERTDESCRIPTORHERE
+*/
+
+
+#panel_group_front #panel_1 {
+	left: 0px;
+	top: 20px;
+	z-index: 10;
+	background-color: #252525;
+}
+
+#panel_group_front #panel_1_header {
+	top: 0px;
+	left: 0px;
+	width: 320px;
+	height: 44px; 
+	background-position: 0px 0px;
+	background-image: url('../images/iphone_imgs_3/panel_front_1_overlay.png');
+	background-size: 320px 1200px;
+	cursor: auto;
+}
+
+#panel_group_front #panel_front_1_wrapper {
+	position: absolute;
+	left: 0px;
+	top: 44px;
+	width: 320px;
+	height: 416px; 
+	z-index: 5;
+	overflow: hidden;		
+}
+
+#panel_group_front #panel_1_content {
+	top: 0px;
+	left: 0px;
+	width: 320px;
+	height: 1150px; 
+	background-position: 0px -44px;
+	z-index: 5;
+	background-image: url('../images/iphone_imgs_3/panel_front_1_overlay.png');
+	background-size: 320px 1200px;
+	cursor: auto;
+}
+
+
+/* buts */
+#panel_group_front #panel_1 #but_back {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 65px;
+	height: 43px; 
+	z-index: 5;
+	cursor: pointer;
+}
+
+/* footer 
+#panel_group_front #panel_1 #panel_footer {
+	position: absolute;
+	top: 244px;
+	left: 0px;
+	width: 320px;
+	height: 216px; 
+	background-position: 0px -984px ;
+	background-image: url('../images/iphone_imgs_3/panel_front_1_overlay.png');
+	background-size: 320px 1200px;
+	cursor: pointer;
+	z-index: 11;
+}
+*/
+
+/* 
+		END
+		OF
+
+		FRONT 
+		PANEL 
+		01 
+
+ ************* */
+
+
+
+/* ******************************************************
+		START
+		OF
+
+		FRONT 
+		PANEL 
+		01 
+
+		INSERTDESCRIPTORHERE
+*/
+
+
+#panel_group_front #panel_2 {
+	left: 0px;
+	top: 20px;
+	z-index: 10;
+	background-color: #252525;
+}
+
+#panel_group_front #panel_2_header {
+	top: 0px;
+	left: 0px;
+	width: 320px;
+	height: 460px; 
+	background-position: 0px 0px;
+	background-image: url('../images/iphone_imgs_3/panel_front_2_overlay.png');
+	background-size: 320px 1200px;
+	cursor: auto;
+}
+
+#panel_group_front #panel_front_2_wrapper {
+	position: absolute;
+	left: 0px;
+	top: 43px;
+	width: 320px;
+	height: 202px; 
+	z-index: 5;
+	overflow: hidden;		
+}
+
+#panel_group_front #panel_2_content {
+	top: 0px;
+	left: 0px;
+	width: 320px;
+	height: 400px; 
+	background-position: 0px -44px;
+	z-index: 5;
+	background-image: url('../images/iphone_imgs_3/panel_front_2_overlay.png');
+	background-size: 320px 1200px;
+	cursor: auto;
+}
+
+/* buts */
+#panel_group_front #panel_2 #but_back {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 65px;
+	height: 43px; 
+	z-index: 5;
+	cursor: pointer;
+}
+
+/* footer */
+#panel_group_front #panel_2 #panel_footer {
+	position: absolute;
+	top: 244px;
+	left: 0px;
+	width: 320px;
+	height: 216px; 
+	background-position: 0px -984px ;
+	background-image: url('../images/iphone_imgs_3/panel_front_2_overlay.png');
+	background-size: 320px 1200px;
+	cursor: pointer;
+	z-index: 11;
+}
+
+
+
+/* 
+		END
+		OF
+
+		FRONT 
+		PANEL 
+		01 
+
+ ************* */
+
+
+
+
+
+
+
+
+
+/* ******************************************************
+		START
+		OF
+
+		POPOVER 
+		01 
+
+		INSERTDESCRIPTORHERE
+*/
+
+
+#panel_popover_1 {
+	left: 0px;
+	top: 20px;
+	z-index: 12;
+	background-image: none;
+}
+#panel_popover_1_content {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 320px;
+	height: 460px; 
+	background-position: 0px 0px;
+	background-image: url('../images/iphone_imgs_3/panel_popover_1.png');
+	background-size: 320px 460px;
+	cursor: auto;
+}
+#panel_popover_1_bg {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 320px;
+	height: 460px; 
+	background-image: url('../images/iphone_imgs_3/semi-dark_bg.png');
+}
+#panel_popover_1 #but_1 {
+	position: absolute;
+	left: 20px;
+	top: 396px;
+	width: 280px;
+	height: 45px; 
+	z-index: 5;
+	cursor: pointer;
+}
+#panel_popover_1 #but_2 {
+	position: absolute;
+	left: 20px;
+	top: 275px;
+	width: 280px;
+	height: 45px; 
+	z-index: 5;
+	cursor: pointer;
+}
+#panel_popover_1 #but_3 {
+	position: absolute;
+	left: 20px;
+	top: 325px;
+	width: 280px;
+	height: 45px; 
+	z-index: 5;
+	cursor: pointer;
+}
+
+
+
+
+/* 
+		END
+		OF
+
+		POPOVER
+		01 
+
+ ************* */
+
+
+
+
+

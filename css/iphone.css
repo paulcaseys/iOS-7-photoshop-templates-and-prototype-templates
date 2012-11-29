@@ -1,0 +1,72 @@
+/* CSS Document */
+
+body {
+	font-family: sans-serif;
+	margin: 0px;
+}
+
+
+.hidden {
+	display: none;
+}
+
+.loading {
+	display: block;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	width: 320px;
+	height: 143px;
+	background-color: #ff00ff;
+	text-align:center;
+	padding-top: 100px;
+	color: #fff;
+	
+    -webkit-border-top-left-radius: 18px;
+    -webkit-border-top-right-radius: 18px;
+    -webkit-border-bottom-left-radius: 18px;
+    -webkit-border-bottom-right-radius: 18px;
+	
+	background-color: #000;
+	border-color: #666;
+}
+#loading_square {
+}
+
+#maincanvas {
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	cursor: pointer;
+	width: 320px;
+	height: 243px;
+}
+
+
+
+
+#hideme {
+	display: none;
+}
+#center_vertical {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 680px;
+	width: 320px;
+	background-color: #ff0000;
+	/*background-image: url('../images/bg_across.jpg');*/
+}
+#center_horizontal {
+	/*
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -340px;
+	margin-left: -512px;
+	height: 680px;
+	width: 1024px;
+	background-color: #000000;
+	background-image: url('../images/bg_square.jpg');
+	*/
+}

@@ -70,6 +70,7 @@ $(document).ready(function(){
 	// detects the scroll location, for nav style/position
 	function initAll() { 	
 
+		// adds scrolling functionality
 		myScroll_back_1 = new iScroll('panel_back_1_wrapper');
 		myScroll_front_1 = new iScroll('panel_front_1_wrapper');
 		myScroll_front_2 = new iScroll('panel_front_2_wrapper');

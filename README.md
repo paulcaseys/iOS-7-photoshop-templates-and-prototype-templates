@@ -4,21 +4,23 @@ this framework helps you create iPhone app prototypes.
 
 only basic html/css/js knowledge is required to use this framework.
 
-some features include;
 
-common design patterns 
+overview of features
+-----------------------------
+
+common design patterns:
 - tabs
 - junk box menu
 - pull to refresh
 - back button
 - popup overlay
 
-quickly add slices from 
+quickly add slices from:
 -	photoshop
 -	illustrator
 -	omnigraffle
 
-prepared
+prepared files:
 - retina display compatible
 - base panals
 

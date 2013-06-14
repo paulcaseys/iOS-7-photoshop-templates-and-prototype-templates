@@ -3,7 +3,7 @@
 body {
 	background: #111;
 	color: #000305;
-	font-size: 14px; 
+	font-size: 14px;
 	font-family: Helvetica, Arial, sans-serif;
 	margin: 0;
 	padding: 0;
@@ -14,7 +14,7 @@ body {
 	background-position: center;
 }
 
-/* Preload images 
+/* Preload images
 #preload-03 { background: url('../images/something.png') no-repeat -9999px -9999px; }
 
 #preload-01 { background: url('../images/ipad_imgs_4/bg_ad_mitre10.png') no-repeat -9999px -9999px; }
@@ -59,7 +59,7 @@ em, i {font-style: italic;}
 	margin-left: -50%;
 	top: 50%;
 	width: 100%;
-	margin-top: -240px;	
+	margin-top: -240px;
 	height: 480px;
 }
 
@@ -81,7 +81,7 @@ em, i {font-style: italic;}
 	width: 320px;
 	height: 20px;
 	background-image: url('../images/iphone_imgs_3/header_iphone.png');
-	background-size: 320px 20px;	
+	background-size: 320px 20px;
 	z-index:23;
 	background-color: #ff0;
 }
@@ -110,6 +110,7 @@ em, i {font-style: italic;}
  */
 
 #navi {
+    /*display:none;*/
 	position: absolute;
 	left: 0px;
 	top: 424px;
@@ -241,13 +242,13 @@ em, i {font-style: italic;}
  * PANEL BASE
  */
 
-#panel_1, #panel_2, #panel_3, #panel_4, #panel_5, 
+#panel_1, #panel_2, #panel_3, #panel_4, #panel_5,
 #panel_popover_1 {
 	position: absolute;
 	left: 0px;
 	top: 0px;
 	width: 320px;
-	height: 460px; 
+	height: 460px;
 	z-index: 5;
 	background-image: url('../images/iphone_imgs_3/background.png');
 	background-size: 320px 461px;
@@ -258,15 +259,15 @@ em, i {font-style: italic;}
  * PANEL WRAPPER BASE
  */
 
-#panel_back_1_wrapper, #panel_back_2_wrapper, #panel_back_3_wrapper, #panel_back_4_wrapper, #panel_back_5_wrapper, 
+#panel_back_1_wrapper, #panel_back_2_wrapper, #panel_back_3_wrapper, #panel_back_4_wrapper, #panel_back_5_wrapper,
 #panel_front_1_wrapper, #panel_front_2_wrapper, #panel_front_3_wrapper, #panel_front_4_wrapper, #panel_front_5_wrapper {
 	position: absolute;
 	left: 0px;
 	top: 43px;
 	width: 320px;
-	height: 370px; 
+	height: 370px;
 	z-index: 5;
-	overflow: hidden;	
+	overflow: hidden;
 }
 
 
@@ -279,7 +280,7 @@ em, i {font-style: italic;}
 	left: 0px;
 	top: 0px;
 	width: 320px;
-	height: 367px; 
+	height: 367px;
 	z-index: 5;
 }
 
@@ -292,9 +293,9 @@ em, i {font-style: italic;}
 		START
 		OF
 
-		BACK 
-		PANEL 
-		01 
+		BACK
+		PANEL
+		01
 
 		INSERTDESCRIPTORHERE
 */
@@ -310,7 +311,7 @@ em, i {font-style: italic;}
 	top: 0px;
 	left: 0px;
 	width: 320px;
-	height: 44px; 
+	height: 44px;
 	background-position: 0px 0px;
 	background-image: url('../images/iphone_imgs_3/panel_back_1_overlay.png');
 	background-size: 320px 1200px;
@@ -322,16 +323,16 @@ em, i {font-style: italic;}
 	left: 0px;
 	top: 44px;
 	width: 320px;
-	height: 370px; 
+	height: 370px;
 	z-index: 5;
-	overflow: hidden;		
+	overflow: hidden;
 }
 
 #panel_group_back #panel_1_content {
 	top: 0px;
 	left: 0px;
 	width: 320px;
-	height: 1150px; 
+	height: 1150px;
 	background-position: 0px -44px;
 	z-index: 5;
 	background-image: url('../images/iphone_imgs_3/panel_back_1_overlay.png');
@@ -346,7 +347,7 @@ em, i {font-style: italic;}
 	left: 0px;
 	top: 30px;
 	width: 320px;
-	height: 120px; 
+	height: 120px;
 	z-index: 5;
 	cursor: pointer;
 }
@@ -356,7 +357,7 @@ em, i {font-style: italic;}
 	left: 0px;
 	top: 0px;
 	width: 65px;
-	height: 44px; 
+	height: 44px;
 	z-index: 5;
 	cursor: pointer;
 }
@@ -366,7 +367,7 @@ em, i {font-style: italic;}
 	left: 245px;
 	top: 0px;
 	width: 65px;
-	height: 44px; 
+	height: 44px;
 	z-index: 5;
 	cursor: pointer;
 }
@@ -376,7 +377,7 @@ em, i {font-style: italic;}
 	left: 0px;
 	top: 0px;
 	width: 65px;
-	height: 44px; 
+	height: 44px;
 	z-index: 5;
 	cursor: pointer;
 }
@@ -387,7 +388,7 @@ em, i {font-style: italic;}
 	top: 388px;
 	left: 0px;
 	width: 320px;
-	height: 10px; 
+	height: 10px;
 	background-image: url('../images/iphone_imgs_3/grad.png');
 	cursor: pointer;
 	z-index: 12;
@@ -395,13 +396,13 @@ em, i {font-style: italic;}
 */
 
 
-/* 
+/*
 		END
 		OF
 
-		BACK 
-		PANEL 
-		01 
+		BACK
+		PANEL
+		01
 
  ************* */
 
@@ -414,9 +415,9 @@ em, i {font-style: italic;}
 		START
 		OF
 
-		FRONT 
-		PANEL 
-		01 
+		FRONT
+		PANEL
+		01
 
 		INSERTDESCRIPTORHERE
 */
@@ -433,7 +434,7 @@ em, i {font-style: italic;}
 	top: 0px;
 	left: 0px;
 	width: 320px;
-	height: 44px; 
+	height: 44px;
 	background-position: 0px 0px;
 	background-image: url('../images/iphone_imgs_3/panel_front_1_overlay.png');
 	background-size: 320px 1200px;
@@ -445,16 +446,16 @@ em, i {font-style: italic;}
 	left: 0px;
 	top: 44px;
 	width: 320px;
-	height: 416px; 
+	height: 416px;
 	z-index: 5;
-	overflow: hidden;		
+	overflow: hidden;
 }
 
 #panel_group_front #panel_1_content {
 	top: 0px;
 	left: 0px;
 	width: 320px;
-	height: 1150px; 
+	height: 1150px;
 	background-position: 0px -44px;
 	z-index: 5;
 	background-image: url('../images/iphone_imgs_3/panel_front_1_overlay.png');
@@ -469,18 +470,18 @@ em, i {font-style: italic;}
 	left: 0px;
 	top: 0px;
 	width: 65px;
-	height: 43px; 
+	height: 43px;
 	z-index: 5;
 	cursor: pointer;
 }
 
-/* footer 
+/* footer
 #panel_group_front #panel_1 #panel_footer {
 	position: absolute;
 	top: 244px;
 	left: 0px;
 	width: 320px;
-	height: 216px; 
+	height: 216px;
 	background-position: 0px -984px ;
 	background-image: url('../images/iphone_imgs_3/panel_front_1_overlay.png');
 	background-size: 320px 1200px;
@@ -489,13 +490,13 @@ em, i {font-style: italic;}
 }
 */
 
-/* 
+/*
 		END
 		OF
 
-		FRONT 
-		PANEL 
-		01 
+		FRONT
+		PANEL
+		01
 
  ************* */
 
@@ -505,9 +506,9 @@ em, i {font-style: italic;}
 		START
 		OF
 
-		FRONT 
-		PANEL 
-		01 
+		FRONT
+		PANEL
+		01
 
 		INSERTDESCRIPTORHERE
 */
@@ -524,7 +525,7 @@ em, i {font-style: italic;}
 	top: 0px;
 	left: 0px;
 	width: 320px;
-	height: 460px; 
+	height: 460px;
 	background-position: 0px 0px;
 	background-image: url('../images/iphone_imgs_3/panel_front_2_overlay.png');
 	background-size: 320px 1200px;
@@ -536,16 +537,16 @@ em, i {font-style: italic;}
 	left: 0px;
 	top: 43px;
 	width: 320px;
-	height: 202px; 
+	height: 202px;
 	z-index: 5;
-	overflow: hidden;		
+	overflow: hidden;
 }
 
 #panel_group_front #panel_2_content {
 	top: 0px;
 	left: 0px;
 	width: 320px;
-	height: 400px; 
+	height: 400px;
 	background-position: 0px -44px;
 	z-index: 5;
 	background-image: url('../images/iphone_imgs_3/panel_front_2_overlay.png');
@@ -559,7 +560,7 @@ em, i {font-style: italic;}
 	left: 0px;
 	top: 0px;
 	width: 65px;
-	height: 43px; 
+	height: 43px;
 	z-index: 5;
 	cursor: pointer;
 }
@@ -570,7 +571,7 @@ em, i {font-style: italic;}
 	top: 244px;
 	left: 0px;
 	width: 320px;
-	height: 216px; 
+	height: 216px;
 	background-position: 0px -984px ;
 	background-image: url('../images/iphone_imgs_3/panel_front_2_overlay.png');
 	background-size: 320px 1200px;
@@ -580,13 +581,13 @@ em, i {font-style: italic;}
 
 
 
-/* 
+/*
 		END
 		OF
 
-		FRONT 
-		PANEL 
-		01 
+		FRONT
+		PANEL
+		01
 
  ************* */
 
@@ -602,8 +603,8 @@ em, i {font-style: italic;}
 		START
 		OF
 
-		POPOVER 
-		01 
+		POPOVER
+		01
 
 		INSERTDESCRIPTORHERE
 */
@@ -620,7 +621,7 @@ em, i {font-style: italic;}
 	top: 0px;
 	left: 0px;
 	width: 320px;
-	height: 460px; 
+	height: 460px;
 	background-position: 0px 0px;
 	background-image: url('../images/iphone_imgs_3/panel_popover_1.png');
 	background-size: 320px 460px;
@@ -631,7 +632,7 @@ em, i {font-style: italic;}
 	left: 0px;
 	top: 0px;
 	width: 320px;
-	height: 460px; 
+	height: 460px;
 	background-image: url('../images/iphone_imgs_3/semi-dark_bg.png');
 }
 #panel_popover_1 #but_1 {
@@ -639,7 +640,7 @@ em, i {font-style: italic;}
 	left: 20px;
 	top: 396px;
 	width: 280px;
-	height: 45px; 
+	height: 45px;
 	z-index: 5;
 	cursor: pointer;
 }
@@ -648,7 +649,7 @@ em, i {font-style: italic;}
 	left: 20px;
 	top: 275px;
 	width: 280px;
-	height: 45px; 
+	height: 45px;
 	z-index: 5;
 	cursor: pointer;
 }
@@ -657,7 +658,7 @@ em, i {font-style: italic;}
 	left: 20px;
 	top: 325px;
 	width: 280px;
-	height: 45px; 
+	height: 45px;
 	z-index: 5;
 	cursor: pointer;
 }
@@ -665,12 +666,12 @@ em, i {font-style: italic;}
 
 
 
-/* 
+/*
 		END
 		OF
 
 		POPOVER
-		01 
+		01
 
  ************* */
 

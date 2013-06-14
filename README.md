@@ -1,4 +1,4 @@
-Quick iOS7 iPhone App prototyping
+Quickly create iOS7 iPhone App prototypes
 ============================
 This framework helps you create iPhone app prototypes.
 

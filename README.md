@@ -11,7 +11,7 @@ Overview of features
 -----------------------------
 
 common design patterns:
-- tabs
+- tabs OR
 - junk box menu
 - pull to refresh
 - back button
@@ -25,6 +25,11 @@ quickly add slices from:
 prepared files:
 - retina display compatible
 - base panals
+
+Demo
+-----------------------------
+A demo of the iOS 7 version can be viewed at paulcasey.net
+http://paulcasey.net/clients/labs/_base_iphone_prototype/
 
 
 Create a new page with scrolling

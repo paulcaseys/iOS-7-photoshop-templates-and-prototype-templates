@@ -6,6 +6,11 @@ It incudes Photoshop templates for iOS7.
 
 Only basic html/css/js knowledge is required to use this framework.
 
+Demo
+-----------------------------
+A demo of the iOS 7 version can be viewed at paulcasey.net
+http://paulcasey.net/clients/labs/_base_iphone_prototype/
+
 
 Overview of features
 -----------------------------
@@ -25,11 +30,6 @@ quickly add slices from:
 prepared files:
 - retina display compatible
 - base panals
-
-Demo
------------------------------
-A demo of the iOS 7 version can be viewed at paulcasey.net
-http://paulcasey.net/clients/labs/_base_iphone_prototype/
 
 
 Create a new page with scrolling
